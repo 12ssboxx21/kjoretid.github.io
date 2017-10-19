@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="flytid.css">
+    <script src="flytid.js"></script>
+</head>
+
+<body>
+
+    <div id="main">
+        <p>fly fra</p>
+        <select id="fra">
+            <option>Oslo</option>
+            <option>Hamburg</option>
+            <option>Florida</option>
+        </select>
+        <p>til</p>
+        <select id="til">
+            <option>Oslo</option>
+            <option>Hamburg</option>
+            <option>Florida</option>
+        </select>
+        <p></p>
+
+        <label>Antall plasser
+            <input id="plasser" type="number">
+        </label>
+        <form action="">Leiebil
+            <input type="checkbox" name="leiebil" id="leiebil">
+        </form>
+        <p></p>
+
+        <div id="svar"></div>
+<form>
+                <input type="button" value="Regn ut" id="cash"/>
+</form>
+        <form>
+                <input type="button" value="Bestill" onclick="window.location.href='https://www.paypal.me/SigurdAngellBergh'" />
+                </form>
+                
+    </div>
+
+    <script>
+        setup();
+    </script>
+</body>
+
+</html>
